@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assintencia Técnica</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2 class="title">Bem vindo a nossa assistência</h2>
+                <p class="paragraf-title"></p>
+                <div class="form">
+                    <form action="action_page.js" autocomplete="on">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="name" value="" placeholder="Ex:Paulo" required>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" value="" placeholder="paulojacon@outlook.com" required>
+                        <label for="nEquip">Patrimonio:</label>
+                        <input type="text" id="nEquip" value="" placeholder="0123" required>
+                        <label for="opcao">Motivo da Solicitação:</label>
+                            <form>
+                                <input type="radio" id="assistencia" name="op1" value="Assistência Técnica">
+                                <label for="assistencia">Assistência Técnica</label>
+                                <input type="radio" id="suprimento" name="op1" value="Suprimentos">
+                                <label for="suprimento">Suprimentos</label>
+                                <input type="radio" id="outros" name="op1" value="Outros">
+                                <label for="outros">Outros</label>
+                                <label for="descricao"></label>
+                            </form>
+            
+                        <p>Descreva sua Solicitação</p>
+                        <textarea placeholder="Informe sua solicitação aqui"></textarea>
+                        <input type="button" onclick="enviarFormulario()" value="Enviar">
+                    </form>
+                        <div class="suporte">
+                            <h3>Atendimento Online</h3>
+                            <a href="http://www.whatsapp.com"><img src="whatsapp.png" class="whatsapp" alt="Icone whatsapp"></a> 
+                        </div>
+                </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
