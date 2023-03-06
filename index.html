@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;500&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
     <title>Assintencia Técnica</title>
 </head>
 <body>
     <div class="container">
         <div class="content">
             <h2 class="title">Bem vindo a nossa assistência</h2>
-                <p class="paragraf-title"></p>
                 <div class="form">
                     <form action="action_page.js" autocomplete="on">
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="name" value="" placeholder="Ex:Paulo" required>
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" value="" placeholder="paulojacon@outlook.com" required>
-                        <label for="nEquip">Patrimonio:</label>
-                        <input type="text" id="nEquip" value="" placeholder="0123" required>
-                        <label for="opcao">Motivo da Solicitação:</label>
-                            <form>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="name" value="" placeholder="Ex:Paulo" required><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email" value="" placeholder="paulojacon@outlook.com" required><br><br>
+                        <label for="nEquip">Patrimonio:</label><br>
+                        <input type="text" id="nEquip" value="" placeholder="0123" required><br><br>
+                        <label for="opcao">Motivo da Solicitação:</label><br>
+                            <form class="form_radio">
                                 <input type="radio" id="assistencia" name="op1" value="Assistência Técnica">
                                 <label for="assistencia">Assistência Técnica</label>
                                 <input type="radio" id="suprimento" name="op1" value="Suprimentos">

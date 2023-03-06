@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+body{
+    height: 100%;
+    width: 90%;
+    background-image: url(bk\ assistencia.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff
+    
+}
+
+.container{
+    height: 150%;
+    width: 90%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.title{
+    color:red;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 250px
+    
+}
+
+.form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.form_radio{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.whatsapp{
+    height: 70px;
+    width: 200px;
+}
